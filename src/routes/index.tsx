@@ -41,7 +41,7 @@ export const Route = createFileRoute("/")({
           "@type": "TravelAgency",
           name: "Dwarkesh Tours And Travels Private Limited",
           image: hero,
-          telephone: "+91 97224 64403",
+          telephone: "+91 97129 57009",
           address: {
             "@type": "PostalAddress",
             streetAddress: "FF 39, Earth Eon, Sama-Savli Road, Opp. Urmi School, New Sama",
@@ -58,7 +58,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const PHONE = "+919722464403";
+const PHONE = "+919712957009";
 const WA_LINK = `https://wa.me/${PHONE.replace("+", "")}?text=Hi%20Dwarkesh%20Tours%2C%20I%27d%20like%20to%20plan%20a%20trip.`;
 
 const packages = [
@@ -110,7 +110,7 @@ const testimonials = [
 const gallery = [hero, bali, paris, kashmir, maldives, singapore, turkey, rajasthan, goa];
 
 const faqs = [
-  { q: "How do I book a tour with Dwarkesh Tours and Travels?", a: "Submit the inquiry form or call us at +91 97224 64403. Our experts share a tailored itinerary within 24 hours, and you confirm with a small booking advance." },
+  { q: "How do I book a tour with Dwarkesh Tours and Travels?", a: "Submit the inquiry form or call us at +91 97129 57009. Our experts share a tailored itinerary within 24 hours, and you confirm with a small booking advance." },
   { q: "Do you offer visa assistance?", a: "Yes — end-to-end visa documentation, appointment scheduling and submission support for all major destinations." },
   { q: "Can itineraries be customized?", a: "Absolutely. Every package can be personalised by duration, hotels, sightseeing, meals and travel dates." },
   { q: "Do you handle group and corporate bookings?", a: "Yes, we specialise in group tours, family vacations and corporate offsites with dedicated tour managers." },
@@ -421,7 +421,7 @@ function Index() {
             <p className="mt-4 max-w-md text-white/85">Share a few details and our travel expert will craft a personalised itinerary within 24 hours — completely free.</p>
             <div className="mt-8 space-y-3 text-sm">
               <a href={`tel:${PHONE}`} className="flex items-center gap-3 text-white/90 hover:text-white">
-                <Phone className="h-4 w-4 text-secondary" /> +91 97224 64403
+                <Phone className="h-4 w-4 text-secondary" /> +91 97129 57009
               </a>
               <div className="flex items-center gap-3 text-white/90">
                 <Mail className="h-4 w-4 text-secondary" /> info@dwarkeshtours.com
@@ -481,7 +481,7 @@ function Index() {
           <div className="mt-12 grid gap-8 lg:grid-cols-2">
             <div className="space-y-5">
               <ContactRow icon={MapPin} title="Address" lines={["FF 39, Earth Eon, Sama-Savli Road,", "Opp. Urmi School, New Sama,", "Vadodara, Gujarat 390024"]} />
-              <ContactRow icon={Phone} title="Phone" lines={["+91 97224 64403"]} href={`tel:${PHONE}`} />
+              <ContactRow icon={Phone} title="Phone" lines={["+91 97129 57009"]} href={`tel:${PHONE}`} />
               <ContactRow icon={Clock} title="Business Hours" lines={["Mon – Sat: 10:00 AM – 8:00 PM", "Sunday: 11:00 AM – 5:00 PM"]} />
               <a href={WA_LINK} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-3 text-sm font-semibold text-white shadow-elegant transition-transform hover:scale-105">
                 <MessageCircle className="h-4 w-4" /> Chat on WhatsApp
@@ -517,7 +517,7 @@ function Index() {
             <div className="text-sm font-bold uppercase tracking-widest text-secondary">Contact</div>
             <div className="mt-4 space-y-2 text-sm text-white/75">
               <div className="flex gap-2"><MapPin className="h-4 w-4 shrink-0 text-secondary" /> FF 39, Earth Eon, Sama-Savli Road, Vadodara 390024</div>
-              <a href={`tel:${PHONE}`} className="flex items-center gap-2 hover:text-white"><Phone className="h-4 w-4 text-secondary" /> +91 97224 64403</a>
+              <a href={`tel:${PHONE}`} className="flex items-center gap-2 hover:text-white"><Phone className="h-4 w-4 text-secondary" /> +91 97129 57009</a>
               <a href={WA_LINK} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-white"><MessageCircle className="h-4 w-4 text-secondary" /> WhatsApp</a>
             </div>
           </div>
